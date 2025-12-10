@@ -5,6 +5,10 @@ public class Datos {
     private String apellido;
     private String correo;
 
+    public Datos(){
+
+    }
+
     public Datos(String nombre, String apellido, String correo){
         this.nombre = nombre;
         this.apellido = apellido;
@@ -33,5 +37,14 @@ public class Datos {
 
     public void setCorreo(String correo){
         this.correo = correo;
+    }
+
+    @Override
+    public String toString() {
+        return "Datos{" +
+                "nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", correo='" + correo + '\'' +
+                '}';
     }
 }

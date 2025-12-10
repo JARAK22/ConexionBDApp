@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">EjemploBaseDeDatos</string>
+    <string name="apellido">Ingresa tu apelllido</string>
+    <string name="nombre">Ingresa tu nombre</string>
+    <string name="correo">Correo</string>
+    <string name="enviar">Enviar datos</string>
+    <string name="bienvenido">Bienvenido</string>
+
 </resources>

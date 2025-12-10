@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EjemploBaseDeDatos">
         <activity
+            android:name=".controller.MostrarDatos"
+            android:exported="false" />
+        <activity
             android:name=".controller.MainActivity"
             android:exported="true">
             <intent-filter>
